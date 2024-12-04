@@ -1,0 +1,9 @@
+.switchOn{
+    float:right;
+}
+.switchBgOn{
+    background: #4DD865;
+}
+.switchBgOff{
+    background:#EAE9EA;
+}

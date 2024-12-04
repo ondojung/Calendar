@@ -1,0 +1,66 @@
+.container{
+    text-align: center;
+    margin:0 auto;
+}
+.emptyDay{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.5rem;
+}
+.dayBlock{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    font-size:0.9rem;
+}
+.calendarContainer{
+    border-spacing:0.5rem;
+}
+.today{
+    background: #FB6062;
+    color:white;
+}
+.selected{
+    background: #FB6062;
+    color:white;
+}
+.mark{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: black;
+    float: left;
+    margin-left: 0.1rem;
+    border-radius: 50%;
+    background: #FF629D;
+}
+.marks{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 0.5rem;
+}
+.CalendarHeader{
+    text-align: left;
+    margin:0.5rem;
+    font-size:1.8rem;
+    font-weight: 700;
+}
+.Year{
+    float: left;
+}
+.Date{
+    float: left;
+}
+.YDContainer{
+    margin: 0 auto;
+    overflow:hidden;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight:200;
+    margin-top: 4rem;
+}
+.controller{
+    float: left;
+}
